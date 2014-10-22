@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:text="@string/selected_item"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+    <TextView
+        android:text="@string/none"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textSelectedDirectory" />
+    <Button
+        android:id="@+id/btnDirectoryActivity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_directory_activity" />
+    <Button
+        android:id="@+id/btnFileActivity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_file_activity" />
+    <Button
+        android:id="@+id/btnDirectoryDialog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_directory_dialog" />
+    <Button
+        android:id="@+id/btnFileDialog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_file_dialog" />
+</LinearLayout>

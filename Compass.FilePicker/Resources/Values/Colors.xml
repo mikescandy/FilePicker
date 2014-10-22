@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+  <drawable name="red">#7f00</drawable>
+  <drawable name="blue">#770000ff</drawable>
+  <drawable name="green">#7700ff00</drawable>
+  <drawable name="yellow">#77ffff00</drawable>
+  <drawable name="white">#ffffff</drawable>
+
+  <drawable name="screen_background_black">#ff000000</drawable>
+  <drawable name="translucent_background">#e0000000</drawable>
+  <drawable name="transparent_background">#00000000</drawable>
+
+
+
+
+  <color name="solid_red">#f00</color>
+  <color name="solid_blue">#0000ff</color>
+  <color name="solid_green">#f0f0</color>
+  <color name="solid_yellow">#ffffff00</color>
+  <color name="lightgraybackground">#f2f2f2</color>
+  <color name="custom_black">#000000</color>
+  <color name="dark_red">#8b0000</color>
+  <color name="dark_red_pressed">#894747</color>
+  <color name="whitesmoke">#F5F5F5</color>
+
+  <color name="bright_blue">#33B5E5</color>
+
+  <!-- Use Gingerbread-orange -->
+  <color name="selection_background_color">#FEBB20</color>
+</resources>

@@ -1,0 +1,100 @@
+<p><a href="http://www.compass.ie"><img src="http://www.compass.ie/wordpress/wp-content/uploads/Compass-logo-Final-300x104.png" alt="" /></a></p>
+
+<h1>Compass FilePicker</h1>
+
+<p><a href="http://compasstessera.azurewebsites.net/"><strong>Download the sample application from the Play Store.</strong></a>  </p>
+
+<p>Compass FilePicker is a simple shapefile tile engine written in C#.<br />
+The purpose of the library is to provide an easy way to render a shapefile into tiles that can be used as an overlay on Google Maps or similar services.<br />
+It's currently being used by 30 Local Authorities in Ireland as part of the <a href="http://www.compass.ie/pavement-management-system/">PMS project</a> to display the official road network on an Android application operating offline.</p>
+
+<h2>Usage example</h2>
+
+<p><code><br />
+var intent = new Intent(this, typeof(FilePickerActivity));<br />
+intent.PutExtra(FilePickerActivity.ExtraNewDirName, "NewFolder");<br />
+intent.PutExtra(FilePickerActivity.ExtraInitialDirectory, SelectedDirectory);<br />
+intent.PutExtra(FilePickerActivity.ExtraMode, (int)FilePickerMode.Directory);<br />
+StartActivityForResult(intent, FilePickerActivity.ResultCodeDirSelected);<br />
+</code><br />
+and then </p>
+
+<h2>Supported Platforms</h2>
+
+<ul>
+<li>Xamarin.Android</li>
+</ul>
+
+<h2>Build</h2>
+
+<p>Compass Tessera is built using</p>
+
+<ul>
+<li>Visual Studio 2013 or Xamarin Studio</li>
+<li>The Xamarin framework</li>
+</ul>
+
+<h2>Sample Applications</h2>
+
+<p>This project contains one sample Xamarin.Android application.</p>
+
+<h3>Xamarin.Android App</h3>
+
+<p>The app  displays a full screen Google Maps map (Google Maps Api V2) and it's set up to generate the tiles on the device.<br />
+The big advantage is that the background mapping is not necessary to display the tiles, making the tile generation fully working offline.<br />
+After deploying the app to the device, copy the the roads.* files in the Maps folder of the web application into the root folder of the device.</p>
+
+<h2>Known bugs and limitations</h2>
+
+<ul>
+<li>The library currently supports only WGS84 -EPSG:4326  as input shapefiles.</li>
+<li>The style of the lines is hardcoded</li>
+<li>There is a small gap between tiles</li>
+</ul>
+
+<h2>TODO</h2>
+
+<ul>
+<li>Suite of unit tests</li>
+<li>Support of different projections in the input file</li>
+<li>Code cleanup</li>
+</ul>
+
+<h2>Credits</h2>
+
+<ul>
+<li><a href="http://code.google.com/p/nettopologysuite">NetTopologySuite</a></li>
+<li><a href="http://download.geofabrik.de/">GeoFabrik</a> for the Ireland road map shapefile used in the sample applications.</li>
+</ul>
+
+<h2>Libraries</h2>
+
+<ul>
+<li>The application is using the portable version of the  <a href="http://code.google.com/p/nettopologysuite">NetTopologySuite</a> library and its dependencies. For convenience the compiled assemblies are available in this repository.</li>
+<li><a href="https://projnet.codeplex.com/">Proj.Net</a></li>
+<li><a href="http://geoapi.codeplex.com/">GeoAPI.NET</a></li>
+<li><a href="https://github.com/grumpydev/TinyIoC">TinyIoC</a></li>
+</ul>
+
+<h2>Feedback</h2>
+
+<p>All bugs, feature requests, pull requests, feedback, etc., are welcome. <a href="https://github.com/compassinformatics/tessera/issues">Create an issue</a>. <br />
+Or ask a question on <a href="http://stackoverflow.com/questions/tagged/compass-tessera">StackOverflow</a></p>
+
+<h2>License</h2>
+
+<p>Copyright 2014, <a href="http://www.compass.ie/">Compass Informatics Ltd</a>.</p>
+
+<p>Licensed under the <a href="http://opensource.org/licenses/MIT">MIT License</a> or see the <a href="https://github.com/compassinformatics/tessera/blob/master/LICENSE"><code>LICENSE</code></a> file.</p>
+
+<h2>Author</h2>
+
+<ul>
+<li>Michele Scandura - <br />
+<a href="https://github.com/mikescandy">gitHub</a> or  <a href="https://twitter.com/mikescandy">Twitter</a></li>
+<li>Compass Informatics - <a href="https://github.com/compassinformatics">gitHub</a>, <a href="https://twitter.com/CompassInfo">Twitter</a> or <a href="https://github.com/mikescandy">web</a> </li>
+</ul>
+
+<h2>Logo</h2>
+
+<p>Copyright 2014, <a href="http://www.compass.ie/">Compass Informatics Ltd</a>.</p>
