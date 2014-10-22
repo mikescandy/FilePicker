@@ -47,12 +47,12 @@ This project contains one sample Xamarin.Android application.
 * [Androd-DirectoryChooser](passy/Android-DirectoryChooser) for the inspiration
 
 ## Feedback
-All bugs, feature requests, pull requests, feedback, etc., are welcome. [Create an issue](https://github.com/compassinformatics/FilePicker/issues). 
+All bugs, feature requests, pull requests, feedback, etc., are welcome. [Create an issue](https://github.com/mikescandy/FilePicker/issues). 
 
 ## License
 Copyright 2014, [Compass Informatics Ltd](http://www.compass.ie/).
 
-Licensed under the [MIT License](http://opensource.org/licenses/MIT) or see the [`LICENSE`](https://github.com/compassinformatics/FilePicker/blob/master/LICENSE) file.
+Licensed under the [MIT License](http://opensource.org/licenses/MIT) or see the [`LICENSE`](https://github.com/mikescandy/FilePicker/blob/master/LICENSE) file.
 
 ## Author
 - Michele Scandura - 
