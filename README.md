@@ -2,10 +2,13 @@
 
 # Compass FilePicker
 
-[**Download the sample application from the Play Store.**](http://compasstessera.azurewebsites.net/)  
 
 Compass FilePicker is a simple file picker component for Xamarin Android.
 It can be used as a full screen activity or as a fragment in a dialog.
+
+![Activity](/../screenshots/Screenshots/activity.png?raw=true "Activity")
+
+![Dialog](/../screenshots/Screenshots/dialog.png?raw=true "Activity")
 
 ## Usage example
 
@@ -44,17 +47,17 @@ This project contains one sample Xamarin.Android application.
 * [Androd-DirectoryChooser](passy/Android-DirectoryChooser) for the inspiration
 
 ## Feedback
-All bugs, feature requests, pull requests, feedback, etc., are welcome. [Create an issue](https://github.com/compassinformatics/tessera/issues). 
+All bugs, feature requests, pull requests, feedback, etc., are welcome. [Create an issue](https://github.com/compassinformatics/FilePicker/issues). 
 
 ## License
 Copyright 2014, [Compass Informatics Ltd](http://www.compass.ie/).
 
-Licensed under the [MIT License](http://opensource.org/licenses/MIT) or see the [`LICENSE`](https://github.com/compassinformatics/tessera/blob/master/LICENSE) file.
+Licensed under the [MIT License](http://opensource.org/licenses/MIT) or see the [`LICENSE`](https://github.com/compassinformatics/FilePicker/blob/master/LICENSE) file.
 
 ## Author
 - Michele Scandura - 
 [gitHub](https://github.com/mikescandy) or  [Twitter](https://twitter.com/mikescandy)
-- Compass Informatics - [gitHub](https://github.com/compassinformatics), [Twitter](https://twitter.com/CompassInfo) or [web](https://github.com/mikescandy) 
+- Compass Informatics - [gitHub](https://github.com/compassinformatics), [Twitter](https://twitter.com/CompassInfo) or [web](https://www.compass.ie) 
 
-## Logo
+## Copyright
 Copyright 2014, [Compass Informatics Ltd](http://www.compass.ie/).
