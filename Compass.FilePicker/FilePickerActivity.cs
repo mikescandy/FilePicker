@@ -76,7 +76,7 @@ namespace Compass.FilePicker
 
             if (bundle == null)
             {
-                fragment = new FilePickerFragment(newDirName, initialDir, filePickerMode);
+                fragment = new FilePickerFragment(initialDir, newDirName, filePickerMode);
                 fragment.Cancel += sender =>
                     {
                         SetResult(Result.Canceled);
